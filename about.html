@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Siamo - Nabi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'The Girl Next Door', cursive;
+    }
+    .font-title {
+      font-family: 'Ibarra Real Nova', serif;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            nabi: {
+              panna: "#F7E7CF",
+              azzurro: "#BADBF3",
+              beige: "#CBAA7D",
+            },
+          },
+          fontFamily: {
+            'title': ['Ibarra Real Nova', 'serif'],
+            'body': ['The Girl Next Door', 'cursive'],
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body>
+  <main class="min-h-screen bg-gradient-to-br from-nabi-panna via-nabi-azzurro to-nabi-beige py-12">
+    <nav class="relative z-10 py-4">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-center items-center gap-6 md:gap-8">
+          <a href="faq.html" class="text-gray-700 hover:text-nabi-beige font-body text-base md:text-lg transition-colors">FAQ</a>
+          <a href="contact.html" class="text-gray-700 hover:text-nabi-beige font-body text-base md:text-lg transition-colors">Contatti</a>
+          <a href="about.html" class="text-gray-700 hover:text-nabi-beige font-body text-base md:text-lg transition-colors">Chi Siamo</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+      <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg">
+        <h1 class="font-title text-4xl md:text-5xl font-bold text-gray-800 mb-8">
+          Chi Siamo
+        </h1>
+        
+        <div class="space-y-6 text-gray-700">
+          <p>Nabi nasce dalla passione per il journaling e la creatività personale. Crediamo che ognuno di noi abbia bisogno di uno spazio digitale dove esprimere se stesso, riflettere e crescere.</p>
+          <p>La nostra missione è offrire un'app che unisca la semplicità d'uso alla potenza creativa, permettendoti di trasformare i tuoi pensieri, memorie e progetti in qualcosa di tangibile e bello.</p>
+          <div class="mt-8">
+            <h2 class="font-title text-2xl font-semibold text-gray-800 mb-4">Il Team</h2>
+            <p>Nabi è sviluppato da un piccolo team dedicato che crede nell'importanza della privacy, della sicurezza e dell'esperienza utente. Siamo qui per creare uno strumento che faccia la differenza nella tua vita quotidiana.</p>
+          </div>
+        </div>
+
+        <div class="mt-8 text-center">
+          <a href="preview.html" class="inline-flex items-center text-nabi-beige hover:text-nabi-beige/80 font-title font-semibold">
+            ← Torna alla home
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

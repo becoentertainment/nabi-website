@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nabi - La tua app di journaling</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'The Girl Next Door', cursive;
+    }
+    .font-title {
+      font-family: 'Ibarra Real Nova', serif;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            nabi: {
+              panna: "#F7E7CF",
+              azzurro: "#BADBF3",
+              beige: "#CBAA7D",
+            },
+          },
+          fontFamily: {
+            'title': ['Ibarra Real Nova', 'serif'],
+            'body': ['The Girl Next Door', 'cursive'],
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body>
+  <main class="min-h-screen bg-gradient-to-br from-nabi-panna via-nabi-azzurro to-nabi-beige">
+    <!-- Navigation Menu -->
+    <nav class="relative z-10 py-4">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-center items-center gap-6 md:gap-8">
+          <a
+            href="faq.html"
+            class="text-gray-700 hover:text-nabi-beige font-body text-base md:text-lg transition-colors"
+          >
+            FAQ
+          </a>
+          <a
+            href="contact.html"
+            class="text-gray-700 hover:text-nabi-beige font-body text-base md:text-lg transition-colors"
+          >
+            Contatti
+          </a>
+          <a
+            href="about.html"
+            class="text-gray-700 hover:text-nabi-beige font-body text-base md:text-lg transition-colors"
+          >
+            Chi Siamo
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="font-title text-5xl md:text-7xl font-bold text-gray-800 mb-6">
+          Nabi
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto">
+          Il tuo journal digitale dove la creatività prende forma
+        </p>
+        
+        <!-- iOS Download Button -->
+        <a
+          href="https://apps.apple.com/app/nabi"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center px-8 py-4 bg-nabi-beige hover:bg-nabi-beige/90 text-white rounded-full text-lg font-title font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+        >
+          <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C1.79 15.25 2.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+          </svg>
+          Scarica su App Store
+        </a>
+      </div>
+      
+      <!-- Decorative elements -->
+      <div class="absolute top-20 left-10 w-32 h-32 bg-nabi-azzurro rounded-full opacity-30 blur-3xl"></div>
+      <div class="absolute bottom-20 right-10 w-40 h-40 bg-nabi-panna rounded-full opacity-40 blur-3xl"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-2">
+          <p class="text-sm text-gray-600">
+            © 2026 Nabi. Tutti i diritti riservati.
+          </p>
+          <div class="flex justify-center gap-4 text-sm">
+            <a href="privacy.html" class="text-gray-600 hover:text-nabi-beige transition-colors">
+              Privacy Policy
+            </a>
+            <span class="text-gray-400">•</span>
+            <a href="terms.html" class="text-gray-600 hover:text-nabi-beige transition-colors">
+              Termini e Condizioni
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
