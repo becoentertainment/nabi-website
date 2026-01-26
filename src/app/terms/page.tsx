@@ -10,147 +10,93 @@ export default function TermsPage() {
             Termini e Condizioni
           </h1>
           <p className="text-sm text-gray-600 mb-8">
-            Ultimo aggiornamento: 22 gennaio 2026
+            Ultimo aggiornamento: 26 gennaio 2026
           </p>
           
           <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
+            <div className="mb-6 p-4 bg-nabi-azzurro/30 rounded-lg">
+              <p className="text-sm italic">
+                Le applicazioni rese disponibili tramite l'App Store sono concesse in licenza, non vendute. Questo è l'Accordo di Licenza per l'Utente Finale dell'Applicazione con Licenza ("EULA Standard") richiesto da Apple per le applicazioni distribuite tramite l'App Store.
+              </p>
+            </div>
+
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">1. Accettazione dei Termini</h2>
+              <p className="mb-4">
+                Le applicazioni rese disponibili tramite l'App Store sono concesse in licenza, non vendute, a te. La tua licenza per ciascuna App è subordinata alla tua accettazione preventiva di questo Accordo di Licenza per l'Utente Finale dell'Applicazione con Licenza ("EULA Standard"), o di un accordo di licenza per l'utente finale personalizzato tra te e il Fornitore dell'Applicazione ("EULA Personalizzato"), se fornito. La tua licenza per qualsiasi App Apple ai sensi di questo EULA Standard o EULA Personalizzato è concessa da Apple, e la tua licenza per qualsiasi App di Terze Parti ai sensi di questo EULA Standard o EULA Personalizzato è concessa dal Fornitore dell'Applicazione di tale App di Terze Parti. Qualsiasi App soggetta a questo EULA Standard è qui indicata come "Applicazione con Licenza". Il Fornitore dell'Applicazione o Apple, a seconda dei casi ("Licenziante"), si riserva tutti i diritti relativi all'Applicazione con Licenza non espressamente concessi a te ai sensi di questo EULA Standard.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">a. Ambito della Licenza</h2>
               <p>
-                Benvenuto nella nostra applicazione di journal digitale. Utilizzando questa applicazione, accetti di rispettare e essere vincolato da questi Termini e Condizioni. Se non accetti questi termini, ti preghiamo di non utilizzare l'applicazione.
+                Il Licenziante ti concede una licenza non trasferibile per utilizzare l'Applicazione con Licenza su qualsiasi prodotto a marchio Apple di tua proprietà o controllo e come consentito dalle Regole di Utilizzo. I termini di questo EULA Standard disciplineranno qualsiasi contenuto, materiale o servizio accessibile da o acquistato all'interno dell'Applicazione con Licenza, nonché gli aggiornamenti forniti dal Licenziante che sostituiscono o integrano l'Applicazione con Licenza originale, a meno che tale aggiornamento non sia accompagnato da un EULA Personalizzato. Salvo quanto previsto nelle Regole di Utilizzo, non puoi distribuire o rendere disponibile l'Applicazione con Licenza su una rete dove potrebbe essere utilizzata da più dispositivi contemporaneamente. Non puoi trasferire, ridistribuire o concedere in sublicenza l'Applicazione con Licenza e, se vendi il tuo Dispositivo Apple a una terza parte, devi rimuovere l'Applicazione con Licenza dal Dispositivo Apple prima di farlo. Non puoi copiare (tranne come consentito da questa licenza e dalle Regole di Utilizzo), fare reverse engineering, smontare, tentare di derivare il codice sorgente di, modificare o creare opere derivate dell'Applicazione con Licenza, di qualsiasi aggiornamento o di qualsiasi parte di essa (tranne nella misura in cui qualsiasi restrizione precedente sia vietata dalla legge applicabile o nella misura in cui possa essere consentito dai termini di licenza che disciplinano l'uso di qualsiasi componente open source incluso con l'Applicazione con Licenza).
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">2. Descrizione del Servizio</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">b. Consenso all'Uso dei Dati</h2>
               <p>
-                La nostra applicazione fornisce una piattaforma digitale per creare, modificare e gestire journal personali, inclusi testi, immagini, disegni, sticker e altri contenuti creativi. L'applicazione consente agli utenti di organizzare i propri pensieri, memorie e progetti in un formato digitale interattivo.
+                Accetti che il Licenziante possa raccogliere e utilizzare dati tecnici e informazioni correlate, inclusi ma non limitati a informazioni tecniche sul tuo dispositivo, software di sistema e applicazione, e periferiche, che vengono raccolti periodicamente per facilitare la fornitura di aggiornamenti software, supporto prodotto e altri servizi a te (se presenti) relativi all'Applicazione con Licenza. Il Licenziante può utilizzare queste informazioni, purché siano in una forma che non ti identifichi personalmente, per migliorare i suoi prodotti o per fornirti servizi o tecnologie.
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">3. Account Utente</h2>
-              <p>Per utilizzare alcune funzionalità dell'applicazione, potresti dover creare un account. Sei responsabile di:</p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Mantenere la riservatezza delle credenziali del tuo account</li>
-                <li>Tutte le attività che si verificano nel tuo account</li>
-                <li>Fornire informazioni accurate e aggiornate durante la registrazione</li>
-              </ul>
-              <p className="mt-4">
-                Ci riserviamo il diritto di sospendere o terminare il tuo account in caso di violazione di questi termini.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">4. Contenuti dell'Utente</h2>
-              <p>Mantieni tutti i diritti di proprietà intellettuale sui contenuti che crei e carichi nell'applicazione. Caricando contenuti, garantisci che:</p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Possiedi i diritti necessari per condividere tali contenuti</li>
-                <li>I contenuti non violano diritti di terzi, incluse leggi sul copyright o sulla privacy</li>
-                <li>I contenuti non contengono materiale diffamatorio, offensivo o illegale</li>
-              </ul>
-              <p className="mt-4">
-                Ci riserviamo il diritto di rimuovere qualsiasi contenuto che violi questi termini o che riteniamo inappropriato.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">5. Licenza d'Uso</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">c. Terminazione</h2>
               <p>
-                Ti concediamo una licenza limitata, non esclusiva, non trasferibile e revocabile per utilizzare l'applicazione esclusivamente per scopi personali e non commerciali, in conformità con questi Termini e Condizioni.
+                Questo EULA Standard è efficace fino alla sua terminazione da parte tua o del Licenziante. I tuoi diritti ai sensi di questo EULA Standard termineranno automaticamente se non rispetti uno qualsiasi dei suoi termini.
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">6. Privacy e Protezione dei Dati</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">d. Servizi Esterni</h2>
               <p>
-                Rispettiamo la tua privacy e proteggiamo i tuoi dati personali in conformità con la nostra <a href="/privacy" className="text-nabi-beige hover:underline">Informativa sulla Privacy</a>. I contenuti che crei sono memorizzati in modo sicuro e accessibili solo tramite il tuo account. Non condividiamo i tuoi contenuti personali con terze parti senza il tuo consenso esplicito, salvo quando richiesto dalla legge.
+                L'Applicazione con Licenza può consentire l'accesso ai servizi e ai siti web del Licenziante e/o di terze parti (collettivamente e individualmente, "Servizi Esterni"). Accetti di utilizzare i Servizi Esterni a tuo esclusivo rischio. Il Licenziante non è responsabile dell'esame o della valutazione del contenuto o dell'accuratezza di qualsiasi Servizio Esterno di terze parti e non sarà responsabile per tali Servizi Esterni di terze parti. I dati visualizzati da qualsiasi Applicazione con Licenza o Servizio Esterno, inclusi ma non limitati a informazioni finanziarie, mediche e di localizzazione, sono solo a scopo informativo generale e non sono garantiti dal Licenziante o dai suoi agenti. Non utilizzerai i Servizi Esterni in alcun modo che sia incoerente con i termini di questo EULA Standard o che violi i diritti di proprietà intellettuale del Licenziante o di qualsiasi terza parte. Accetti di non utilizzare i Servizi Esterni per molestare, abusare, perseguitare, minacciare o diffamare qualsiasi persona o entità, e che il Licenziante non è responsabile per tale utilizzo. I Servizi Esterni potrebbero non essere disponibili in tutte le lingue o nel tuo Paese di origine, e potrebbero non essere appropriati o disponibili per l'uso in qualsiasi località particolare. Nella misura in cui scegli di utilizzare tali Servizi Esterni, sei l'unico responsabile della conformità con qualsiasi legge applicabile. Il Licenziante si riserva il diritto di modificare, sospendere, rimuovere, disabilitare o imporre restrizioni o limiti di accesso su qualsiasi Servizio Esterno in qualsiasi momento senza preavviso o responsabilità nei tuoi confronti.
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">7. Backup e Conservazione dei Dati</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">e. NESSUNA GARANZIA</h2>
               <p>
-                Mentre ci sforziamo di mantenere un servizio affidabile, ti consigliamo di effettuare backup regolari dei tuoi contenuti importanti. Non siamo responsabili per la perdita di dati dovuta a circostanze al di fuori del nostro controllo, incluse ma non limitate a guasti tecnici, interruzioni del servizio o errori dell'utente.
+                RICONOSCI ESPRESSAMENTE E ACCETTI CHE L'USO DELL'APPLICAZIONE CON LICENZA È A TUO ESCLUSIVO RISCHIO. NELLA MASSIMA MISURA CONSENTITA DALLA LEGGE APPLICABILE, L'APPLICAZIONE CON LICENZA E QUALSIASI SERVIZIO ESEGUITO O FORNITO DALL'APPLICAZIONE CON LICENZA SONO FORNITI "COSÌ COME SONO" E "COME DISPONIBILI", CON TUTTI I DIFETTI E SENZA GARANZIA DI ALCUN TIPO, E IL LICENZIANTE QUI RINUNCIA A TUTTE LE GARANZIE E CONDIZIONI RIGUARDO ALL'APPLICAZIONE CON LICENZA E A QUALSIASI SERVIZIO, SIA ESPRESSE, IMPLICITE O STATUTARIE, INCLUSI, MA NON LIMITATI A, LE GARANZIE E/O CONDIZIONI IMPLICITE DI COMMERCIABILITÀ, DI QUALITÀ SODDISFACENTE, DI IDONEITÀ A UNO SCOPO PARTICOLARE, DI ACCURATEZZA, DI GODIMENTO TRANQUILLO E DI NON VIOLAZIONE DEI DIRITTI DI TERZE PARTI. NESSUNA INFORMAZIONE O CONSIGLIO ORALE O SCRITTO FORNITO DAL LICENZIANTE O DAL SUO RAPPRESENTANTE AUTORIZZATO CREERÀ UNA GARANZIA. SE L'APPLICAZIONE CON LICENZA O I SERVIZI RISULTANO DIFETTOSI, ASSUMI L'INTERO COSTO DI TUTTE LE MANUTENZIONI, RIPARAZIONI O CORREZIONI NECESSARIE. ALCUNE GIURISDIZIONI NON CONSENTONO L'ESCLUSIONE DI GARANZIE IMPLICITE O LIMITAZIONI SUI DIRITTI STATUTARI APPLICABILI DI UN CONSUMATORE, QUINDI L'ESCLUSIONE E LE LIMITAZIONI SOPRA INDICATE POTREBBERO NON APPLICARSI A TE.
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">8. Abbonamenti e Pagamenti</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">f. Limitazione di Responsabilità</h2>
               <p>
-                L'applicazione può offrire funzionalità premium accessibili tramite abbonamento. Gli abbonamenti vengono gestiti attraverso la piattaforma App Store di Apple e sono soggetti ai termini e condizioni di Apple.
-              </p>
-              <ul className="list-disc pl-6 space-y-2 mt-4">
-                <li>Gli abbonamenti vengono rinnovati automaticamente a meno che non vengano disattivati almeno 24 ore prima della fine del periodo corrente</li>
-                <li>Puoi gestire o cancellare i tuoi abbonamenti dalle impostazioni del tuo account App Store</li>
-                <li>I rimborsi sono gestiti secondo le politiche di Apple e le leggi applicabili</li>
-                <li>Ci riserviamo il diritto di modificare i prezzi degli abbonamenti con preavviso</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">9. Modifiche al Servizio</h2>
-              <p>
-                Ci riserviamo il diritto di modificare, sospendere o interrompere qualsiasi aspetto dell'applicazione in qualsiasi momento, con o senza preavviso. Non saremo responsabili nei confronti dell'utente o di terze parti per eventuali modifiche, sospensioni o interruzioni del servizio.
+                NELLA MISURA IN CUI NON VIETATO DALLA LEGGE, IN NESSUN CASO IL LICENZIANTE SARÀ RESPONSABILE PER LESIONI PERSONALI O QUALSIASI DANNO INCIDENTALE, SPECIALE, INDIRETTO O CONSEGUENZIALE DI QUALSIASI TIPO, INCLUSI, SENZA LIMITAZIONE, DANNI PER PERDITA DI PROFITTI, PERDITA DI DATI, INTERRUZIONE DELL'ATTIVITÀ O QUALSIASI ALTRO DANNO O PERDITA COMMERCIALE, DERIVANTI DA O RELATIVI AL TUO USO O ALL'IMPOSSIBILITÀ DI UTILIZZARE L'APPLICAZIONE CON LICENZA, QUALUNQUE SIA LA CAUSA, INDIPENDENTEMENTE DALLA TEORIA DELLA RESPONSABILITÀ (CONTRATTO, ILLECITO O ALTRO) E ANCHE SE IL LICENZIANTE È STATO AVVISATO DELLA POSSIBILITÀ DI TALI DANNI. ALCUNE GIURISDIZIONI NON CONSENTONO LA LIMITAZIONE DI RESPONSABILITÀ PER LESIONI PERSONALI, O DI DANNI INCIDENTALI O CONSEGUENZIALI, QUINDI QUESTA LIMITAZIONE POTREBBE NON APPLICARSI A TE. In nessun caso la responsabilità totale del Licenziante nei tuoi confronti per tutti i danni (diversi da quelli che possono essere richiesti dalla legge applicabile nei casi che coinvolgono lesioni personali) supererà l'importo di cinquanta dollari ($50,00). Le limitazioni precedenti si applicheranno anche se il rimedio sopra indicato non raggiunge il suo scopo essenziale.
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">10. Limiti di Responsabilità</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">g. Esportazione</h2>
               <p>
-                L'applicazione viene fornita "così com'è" e "come disponibile", senza garanzie di alcun tipo, esplicite o implicite. Non garantiamo che l'applicazione sarà ininterrotta, tempestiva, sicura o esente da errori. Non saremo responsabili per eventuali danni diretti, indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di utilizzare l'applicazione.
+                Non puoi utilizzare o altrimenti esportare o riesportare l'Applicazione con Licenza se non come autorizzato dalla legge degli Stati Uniti e dalle leggi della giurisdizione in cui l'Applicazione con Licenza è stata ottenuta. In particolare, ma senza limitazione, l'Applicazione con Licenza non può essere esportata o riesportata (a) in qualsiasi paese soggetto a embargo degli Stati Uniti o (b) a chiunque si trovi nell'Elenco dei Cittadini Specialmente Designati del Dipartimento del Tesoro degli Stati Uniti o nell'Elenco delle Persone o Entità Negate del Dipartimento del Commercio degli Stati Uniti. Utilizzando l'Applicazione con Licenza, dichiari e garantisci di non trovarti in alcun paese del genere o in alcun elenco del genere. Accetti anche che non utilizzerai questi prodotti per scopi vietati dalla legge degli Stati Uniti, inclusi, senza limitazione, lo sviluppo, la progettazione, la fabbricazione o la produzione di armi nucleari, missilistiche o chimiche o biologiche.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">h. Governo degli Stati Uniti</h2>
+              <p>
+                L'Applicazione con Licenza e la documentazione correlata sono "Articoli Commerciali", come definito in 48 C.F.R. §2.101, costituiti da "Software per Computer Commerciale" e "Documentazione Software per Computer Commerciale", come tali termini sono utilizzati in 48 C.F.R. §12.212 o 48 C.F.R. §227.7202, a seconda dei casi. In conformità con 48 C.F.R. §12.212 o 48 C.F.R. §227.7202-1 attraverso 227.7202-4, a seconda dei casi, il Software per Computer Commerciale e la Documentazione Software per Computer Commerciale sono concessi in licenza agli utenti finali del Governo degli Stati Uniti (a) solo come Articoli Commerciali e (b) solo con quei diritti concessi a tutti gli altri utenti finali ai sensi dei termini e condizioni qui indicati. Diritti non pubblicati riservati ai sensi delle leggi sul copyright degli Stati Uniti.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">i. Legge Applicabile</h2>
+              <p>
+                Salvo nella misura espressamente prevista nel paragrafo seguente, questo Accordo e la relazione tra te e Apple saranno disciplinati dalle leggi dello Stato della California, escludendo le sue disposizioni sul conflitto di leggi. Tu e Apple accettate di sottoporvi alla giurisdizione personale ed esclusiva dei tribunali situati nella contea di Santa Clara, California, per risolvere qualsiasi controversia o reclamo derivante da questo Accordo. Se (a) non sei un cittadino degli Stati Uniti; (b) non risiedi negli Stati Uniti; (c) non stai accedendo al Servizio dagli Stati Uniti; e (d) sei un cittadino di uno dei paesi identificati di seguito, accetti qui che qualsiasi controversia o reclamo derivante da questo Accordo sarà disciplinato dalla legge applicabile indicata di seguito, senza riguardo a qualsiasi disposizione sul conflitto di leggi, e accetti qui irrevocabilmente di sottoporti alla giurisdizione non esclusiva dei tribunali situati nello stato, provincia o paese identificato di seguito la cui legge disciplina:
               </p>
               <p className="mt-4">
-                In nessun caso la nostra responsabilità totale verso di te per qualsiasi reclamo relativo all'applicazione supererà l'importo che hai pagato per l'abbonamento nell'ultimo anno, o 50 euro se non hai sottoscritto un abbonamento.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">11. Proprietà Intellettuale</h2>
-              <p>
-                Tutti i diritti di proprietà intellettuale relativi all'applicazione, inclusi ma non limitati a design, loghi, icone, sticker e altri elementi grafici, sono di nostra proprietà o dei nostri licenzianti. Non è consentito utilizzare, copiare, modificare o distribuire tali elementi senza il nostro consenso scritto.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">12. Terminazione</h2>
-              <p>
-                Possiamo terminare o sospendere il tuo accesso all'applicazione immediatamente, senza preavviso, per qualsiasi motivo, inclusa la violazione di questi Termini e Condizioni. Alla terminazione, il tuo diritto di utilizzare l'applicazione cesserà immediatamente.
+                Se sei un cittadino di qualsiasi paese dell'Unione Europea o Svizzera, Norvegia o Islanda, la legge applicabile e il foro saranno le leggi e i tribunali del tuo luogo di residenza abituale.
               </p>
               <p className="mt-4">
-                Puoi terminare il tuo account in qualsiasi momento dalle impostazioni dell'applicazione. Dopo la terminazione, i tuoi dati verranno eliminati secondo quanto previsto nella nostra Informativa sulla Privacy.
+                Specificamente esclusa dall'applicazione a questo Accordo è quella legge nota come Convenzione delle Nazioni Unite sulla Vendita Internazionale di Merci.
               </p>
             </section>
 
             <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">13. Modifiche ai Termini</h2>
-              <p>
-                Ci riserviamo il diritto di modificare questi Termini e Condizioni in qualsiasi momento. Le modifiche entreranno in vigore immediatamente dopo la pubblicazione. Ti consigliamo di rivedere periodicamente questi termini. Il continuo utilizzo dell'applicazione dopo le modifiche costituisce accettazione dei nuovi termini.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">14. Legge Applicabile e Risoluzione delle Controversie</h2>
-              <p>
-                Questi Termini e Condizioni sono disciplinati e interpretati in conformità con le leggi italiane. Qualsiasi controversia derivante da o relativa a questi termini sarà soggetta alla giurisdizione esclusiva dei tribunali italiani.
-              </p>
-              <p className="mt-4">
-                Se sei un consumatore residente nell'Unione Europea, hai il diritto di utilizzare la piattaforma di risoluzione delle controversie online della Commissione Europea disponibile all'indirizzo <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" className="text-nabi-beige hover:underline">https://ec.europa.eu/consumers/odr</a>.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">15. Disposizioni Generali</h2>
-              <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Forza maggiore:</strong> Non saremo responsabili per il mancato adempimento delle nostre obbligazioni dovuto a cause di forza maggiore, incluse ma non limitate a disastri naturali, guerre, pandemie o interruzioni dei servizi di terze parti.</li>
-                <li><strong>Cessione:</strong> Non puoi cedere o trasferire i tuoi diritti o obblighi derivanti da questi termini senza il nostro consenso scritto. Possiamo cedere questi termini senza restrizioni.</li>
-                <li><strong>Integrità:</strong> Se una disposizione di questi termini viene ritenuta non valida o inapplicabile, le restanti disposizioni rimarranno in pieno vigore ed effetto.</li>
-                <li><strong>Età minima:</strong> Devi avere almeno 13 anni (o l'età minima richiesta dalla legge nel tuo paese) per utilizzare l'applicazione. Se hai meno di 18 anni, devi avere il consenso dei tuoi genitori o tutori.</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">16. Contatti</h2>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">Contatti</h2>
               <p>Per qualsiasi domanda o chiarimento riguardo a questi Termini e Condizioni, puoi contattarci:</p>
               <ul className="list-none pl-0 space-y-2 mt-4">
                 <li><strong>Titolare:</strong> Elisabetta Cillo</li>
