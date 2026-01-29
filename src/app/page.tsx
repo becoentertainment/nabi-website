@@ -1,3 +1,5 @@
+const APP_STORE_URL = 'https://apps.apple.com/app/id6758015801';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-nabi-panna via-nabi-azzurro to-nabi-beige">
@@ -39,7 +41,7 @@ export default function Home() {
           
           {/* iOS Download Button */}
           <a
-            href="https://apps.apple.com/app/nabi"
+            href={APP_STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-nabi-beige hover:bg-nabi-beige/90 text-white rounded-full text-lg font-title font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
