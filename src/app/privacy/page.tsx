@@ -1,0 +1,155 @@
+import NavMenu from '../components/NavMenu'
+
+export default function PrivacyPage() {
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-nabi-panna via-nabi-azzurro to-nabi-beige py-12">
+      <NavMenu />
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-lg">
+          <h1 className="font-title text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            Privacy Policy
+          </h1>
+          <p className="text-sm text-gray-600 mb-8">
+            Ultimo aggiornamento: 22 gennaio 2026
+          </p>
+          <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
+            <p>
+              La tua privacy è importante per noi. Questa Informativa sulla Privacy descrive come raccogliamo, utilizziamo, conserviamo e proteggiamo le tue informazioni personali quando utilizzi la nostra applicazione di journal digitale.
+            </p>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">1. Informazioni che Raccogliamo</h2>
+              <h3 className="font-title text-xl font-semibold text-gray-800 mt-6 mb-3">1.1 Informazioni dell&apos;Account</h3>
+              <p>Quando crei un account, raccogliamo le seguenti informazioni:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Nome utente o nome visualizzato</li>
+                <li>Indirizzo email</li>
+                <li>Password (criptata e memorizzata in modo sicuro)</li>
+              </ul>
+              <h3 className="font-title text-xl font-semibold text-gray-800 mt-6 mb-3">1.2 Contenuti dell&apos;Utente</h3>
+              <p>Raccogliamo e memorizziamo i contenuti che crei nell&apos;applicazione, inclusi ma non limitati a:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Testi dei journal e delle voci</li>
+                <li>Immagini e foto caricate</li>
+                <li>Disegni e annotazioni</li>
+                <li>Sticker e decorazioni utilizzate</li>
+                <li>Metadati associati ai contenuti (date, tag, ecc.)</li>
+              </ul>
+              <h3 className="font-title text-xl font-semibold text-gray-800 mt-6 mb-3">1.3 Informazioni Tecniche</h3>
+              <p>Raccogliamo automaticamente alcune informazioni tecniche quando utilizzi l&apos;applicazione:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Tipo di dispositivo e sistema operativo</li>
+                <li>Versione dell&apos;applicazione</li>
+                <li>Log di utilizzo e errori (per migliorare il servizio)</li>
+                <li>Indirizzo IP (anonimizzato quando possibile)</li>
+              </ul>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">2. Base Legale del Trattamento</h2>
+              <p>Trattiamo i tuoi dati personali sulla base delle seguenti basi legali:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>Esecuzione del contratto:</strong> per fornire i servizi richiesti e gestire il tuo account</li>
+                <li><strong>Consenso:</strong> quando accetti esplicitamente il trattamento di determinati dati (ad esempio, per comunicazioni di marketing)</li>
+                <li><strong>Interesse legittimo:</strong> per migliorare i nostri servizi, garantire la sicurezza e prevenire frodi</li>
+                <li><strong>Obbligo legale:</strong> per rispettare obblighi legali e normativi</li>
+              </ul>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">3. Come Utilizziamo le Tue Informazioni</h2>
+              <p>Utilizziamo le informazioni raccolte per:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Fornire, mantenere e migliorare i nostri servizi</li>
+                <li>Autenticare il tuo account e garantire la sicurezza</li>
+                <li>Sincronizzare i tuoi contenuti tra i dispositivi</li>
+                <li>Fornire supporto tecnico e rispondere alle tue richieste</li>
+                <li>Analizzare l&apos;utilizzo dell&apos;applicazione per migliorare l&apos;esperienza utente</li>
+                <li>Rispettare obblighi legali e prevenire attività fraudolente</li>
+              </ul>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">4. Conservazione e Sicurezza dei Dati</h2>
+              <p>Implementiamo misure di sicurezza tecniche e organizzative per proteggere le tue informazioni:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Crittografia dei dati in transito e a riposo</li>
+                <li>Autenticazione sicura e controllo degli accessi</li>
+                <li>Backup regolari per prevenire la perdita di dati</li>
+                <li>Monitoraggio continuo per rilevare attività sospette</li>
+              </ul>
+              <p className="mt-4">I tuoi contenuti sono memorizzati in modo sicuro e sono accessibili solo tramite il tuo account autenticato. Conserviamo i tuoi dati finché il tuo account è attivo o secondo quanto richiesto dalla legge.</p>
+              <p className="mt-4"><strong>Periodo di conservazione dopo cancellazione:</strong> Dopo la cancellazione del tuo account, i tuoi dati personali verranno eliminati entro 30 giorni, salvo obblighi di conservazione previsti dalla legge (ad esempio, per scopi fiscali o contabili). I backup potrebbero essere conservati per un periodo massimo di 90 giorni per garantire la sicurezza e il ripristino in caso di problemi tecnici.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">5. Condivisione delle Informazioni</h2>
+              <p>Non vendiamo, affittiamo o condividiamo le tue informazioni personali con terze parti per scopi commerciali. Possiamo condividere le tue informazioni solo nelle seguenti circostanze:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Con il tuo consenso esplicito</li>
+                <li>Con fornitori di servizi che ci aiutano a operare l&apos;applicazione (ad esempio, servizi di hosting cloud), soggetti a obblighi di riservatezza</li>
+                <li>Quando richiesto dalla legge o da un ordine giudiziario</li>
+                <li>Per proteggere i nostri diritti, la tua sicurezza o quella di altri</li>
+                <li>In caso di fusione, acquisizione o vendita di asset (con preavviso agli utenti)</li>
+              </ul>
+              <h3 className="font-title text-xl font-semibold text-gray-800 mt-6 mb-3">Servizi di Terze Parti</h3>
+              <p>Per fornire i nostri servizi, ci avvaliamo dei seguenti fornitori:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li><strong>Apple (App Store):</strong> per la distribuzione dell&apos;applicazione e la gestione dei pagamenti in-app. Apple può raccogliere informazioni relative alle transazioni. Per maggiori informazioni, consulta la <a href="https://www.apple.com/privacy/" target="_blank" rel="noopener noreferrer" className="text-nabi-beige hover:underline">Privacy Policy di Apple</a>.</li>
+                <li><strong>Supabase:</strong> per l&apos;autenticazione degli utenti e la memorizzazione sicura dei dati. Consulta la <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer" className="text-nabi-beige hover:underline">Privacy Policy di Supabase</a>.</li>
+                <li><strong>RevenueCat:</strong> per la gestione degli abbonamenti e dei pagamenti in-app. Consulta la <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer" className="text-nabi-beige hover:underline">Privacy Policy di RevenueCat</a>.</li>
+              </ul>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">6. I Tuoi Diritti</h2>
+              <p>Hai il diritto di:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Accedere alle tue informazioni personali</li>
+                <li>Correggere informazioni inaccurate o incomplete</li>
+                <li>Richiedere la cancellazione dei tuoi dati personali</li>
+                <li>Opporti al trattamento dei tuoi dati personali</li>
+                <li>Richiedere la portabilità dei tuoi dati</li>
+                <li>Revocare il consenso in qualsiasi momento</li>
+                <li>Presentare un reclamo all&apos;autorità di controllo competente (per utenti UE: Garante per la Protezione dei Dati Personali)</li>
+              </ul>
+              <p className="mt-4">Per esercitare questi diritti, puoi contattarci tramite i canali di supporto disponibili nell&apos;applicazione o all&apos;indirizzo email indicato nella sezione Contatti. Risponderemo alla tua richiesta entro i tempi previsti dalla legge applicabile (generalmente entro 30 giorni).</p>
+              <p className="mt-4"><strong>Cancellazione dell&apos;account:</strong> Puoi cancellare il tuo account in qualsiasi momento dalle impostazioni dell&apos;applicazione. La cancellazione comporterà l&apos;eliminazione permanente di tutti i tuoi contenuti e dati personali, salvo quanto previsto nella sezione &quot;Conservazione e Sicurezza dei Dati&quot;.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">7. Cookie e Tecnologie Simili</h2>
+              <p>L&apos;applicazione può utilizzare tecnologie simili ai cookie per migliorare l&apos;esperienza utente, autenticare le sessioni e analizzare l&apos;utilizzo. Puoi gestire queste preferenze attraverso le impostazioni del dispositivo o dell&apos;applicazione.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">8. Trasferimento Internazionale dei Dati</h2>
+              <p>I tuoi dati possono essere trasferiti e memorizzati in server situati al di fuori del tuo paese di residenza. Garantiamo che tali trasferimenti avvengano in conformità con le leggi sulla protezione dei dati applicabili e che i tuoi dati siano protetti con misure di sicurezza appropriate.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">9. Privacy dei Minori</h2>
+              <p>L&apos;applicazione non è destinata a minori di 13 anni (o all&apos;età minima richiesta dalla legge nel tuo paese). Non raccogliamo consapevolmente informazioni personali da minori. Se scopriamo di aver raccolto informazioni da un minore senza il consenso dei genitori, prenderemo provvedimenti per eliminare tali informazioni.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">10. Modifiche a Questa Privacy Policy</h2>
+              <p>Possiamo aggiornare questa Informativa sulla Privacy periodicamente per riflettere cambiamenti nelle nostre pratiche o per altri motivi operativi, legali o normativi. Ti notificheremo eventuali modifiche significative pubblicando la nuova Privacy Policy nell&apos;applicazione e aggiornando la data di &quot;Ultimo aggiornamento&quot;. Ti consigliamo di rivedere periodicamente questa informativa.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">11. Conformità al GDPR</h2>
+              <p>Se sei residente nell&apos;Unione Europea, questa Privacy Policy è conforme al Regolamento Generale sulla Protezione dei Dati (GDPR). Rispettiamo i tuoi diritti fondamentali alla privacy e alla protezione dei dati personali come previsto dal GDPR.</p>
+            </section>
+            <section>
+              <h2 className="font-title text-2xl font-bold text-gray-800 mt-8 mb-4">12. Contatti</h2>
+              <p>Per qualsiasi domanda, preoccupazione o richiesta riguardo a questa Privacy Policy o al trattamento dei tuoi dati personali, puoi contattarci:</p>
+              <ul className="list-none pl-0 space-y-2 mt-4">
+                <li><strong>Titolare del trattamento:</strong> Elisabetta Cillo</li>
+                <li><strong>Email:</strong> <a href="mailto:hello@getnabi.app" className="text-nabi-beige hover:underline">hello@getnabi.app</a></li>
+                <li><strong>Indirizzo:</strong> Via Nomentana 246, Roma, Italia</li>
+              </ul>
+            </section>
+            <div className="mt-8 p-4 bg-nabi-panna/50 rounded-lg">
+              <p className="text-sm">Utilizzando questa applicazione, riconosci di aver letto e compreso questa Informativa sulla Privacy e accetti la raccolta e l&apos;uso delle tue informazioni come descritto in questo documento.</p>
+            </div>
+          </div>
+          <div className="mt-8 text-center">
+            <a href="/" className="inline-flex items-center text-nabi-beige hover:text-nabi-beige/80 font-title font-semibold">
+              ← Torna alla home
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  )
+}

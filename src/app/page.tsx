@@ -48,8 +48,8 @@ export default function Home() {
                 Privacy Policy
               </a>
               <span className="text-gray-400">•</span>
-              <a href="/terms" className="text-gray-600 hover:text-nabi-beige transition-colors">
-                Termini e Condizioni
+              <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-nabi-beige transition-colors">
+                Terms of Use (EULA)
               </a>
             </div>
           </div>
