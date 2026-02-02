@@ -40,8 +40,8 @@ export default function EnHome() {
                 Privacy Policy
               </a>
               <span className="text-gray-400">•</span>
-              <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-nabi-beige transition-colors">
-                Terms of Use (EULA)
+              <a href="/en/terms" className="text-gray-600 hover:text-nabi-beige transition-colors">
+                Terms of Use
               </a>
               <span className="text-gray-400">•</span>
               <a href="/en/custom-eula" className="text-gray-600 hover:text-nabi-beige transition-colors">
