@@ -164,7 +164,6 @@ export default function EnPrivacyPage() {
               <ul className="list-none pl-0 space-y-2 mt-4">
                 <li><strong>Data controller:</strong> Elisabetta Cillo</li>
                 <li><strong>Email:</strong> <a href="mailto:hello@getnabi.app" className="text-nabi-beige hover:underline">hello@getnabi.app</a></li>
-                <li><strong>Address:</strong> Via Nomentana 246, Rome, Italy</li>
               </ul>
             </section>
 
