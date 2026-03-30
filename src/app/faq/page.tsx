@@ -13,16 +13,16 @@ export default function FAQPage() {
           <div className="space-y-6 text-gray-700">
             <div>
               <h2 className="font-title text-xl font-semibold text-gray-800 mb-2">
-                Cos'è Nabi?
+                {`Cos'è Nabi?`}
               </h2>
               <p>
-                Nabi è un'app di journaling digitale che ti permette di esprimere la tua creatività attraverso testi, immagini, disegni e decorazioni. È il tuo spazio personale per riflettere, creare e crescere.
+                {`Nabi è un'app di journaling digitale che ti permette di esprimere la tua creatività attraverso testi, immagini, disegni e decorazioni. È il tuo spazio personale per riflettere, creare e crescere.`}
               </p>
             </div>
 
             <div>
               <h2 className="font-title text-xl font-semibold text-gray-800 mb-2">
-                L'app è gratuita?
+                {`L'app è gratuita?`}
               </h2>
               <p>
                 Nabi offre funzionalità base gratuite. Per accedere a funzionalità premium e avanzate, è disponibile un abbonamento mensile o annuale.
@@ -52,16 +52,16 @@ export default function FAQPage() {
                 Come posso cancellare il mio account?
               </h2>
               <p>
-                Puoi cancellare il tuo account in qualsiasi momento dalle impostazioni dell'app. Dopo la cancellazione, i tuoi dati verranno eliminati secondo quanto previsto nella nostra Privacy Policy.
+                {`Puoi cancellare il tuo account in qualsiasi momento dalle impostazioni dell'app. Dopo la cancellazione, i tuoi dati verranno eliminati secondo quanto previsto nella nostra Privacy Policy.`}
               </p>
             </div>
 
             <div>
               <h2 className="font-title text-xl font-semibold text-gray-800 mb-2">
-                L'app è disponibile per Android?
+                {`L'app è disponibile per Android?`}
               </h2>
               <p>
-                Attualmente Nabi è disponibile solo per iOS. Stiamo lavorando per portare l'app anche su Android in futuro.
+                {`Attualmente Nabi è disponibile solo per iOS. Stiamo lavorando per portare l'app anche su Android in futuro.`}
               </p>
             </div>
           </div>

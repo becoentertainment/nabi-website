@@ -16,7 +16,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              La nostra missione è offrire un'app che unisca la semplicità d'uso alla potenza creativa, permettendoti di trasformare i tuoi pensieri, memorie e progetti in qualcosa di tangibile e bello.
+              {`La nostra missione è offrire un'app che unisca la semplicità d'uso alla potenza creativa, permettendoti di trasformare i tuoi pensieri, memorie e progetti in qualcosa di tangibile e bello.`}
             </p>
 
             <div className="mt-8">
@@ -24,7 +24,7 @@ export default function AboutPage() {
                 Il Team
               </h2>
               <p>
-                Nabi è sviluppato da un piccolo team dedicato che crede nell'importanza della privacy, della sicurezza e dell'esperienza utente. Siamo qui per creare uno strumento che faccia la differenza nella tua vita quotidiana.
+                {`Nabi è sviluppato da un piccolo team dedicato che crede nell'importanza della privacy, della sicurezza e dell'esperienza utente. Siamo qui per creare uno strumento che faccia la differenza nella tua vita quotidiana.`}
               </p>
             </div>
           </div>
